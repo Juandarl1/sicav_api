@@ -31,6 +31,7 @@ LOCAL_APPS = [
     "alerts",
     "locations",
     "plans",
+    "vehicles",
 ]
 
 INSTALLED_APPS = BASE_APPS + THRID_PARTY_APPS + LOCAL_APPS
