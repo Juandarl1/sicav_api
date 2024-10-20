@@ -28,6 +28,7 @@ THRID_PARTY_APPS = [
 ]
 
 LOCAL_APPS = [
+    "alerts",
     "locations",
     "plans",
 ]
