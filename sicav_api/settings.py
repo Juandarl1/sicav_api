@@ -28,6 +28,7 @@ THRID_PARTY_APPS = [
 ]
 
 LOCAL_APPS = [
+    "accounts",
     "alerts",
     "locations",
     "plans",
@@ -66,6 +67,7 @@ TEMPLATES = [
 
 WSGI_APPLICATION = "sicav_api.wsgi.application"
 
+AUTH_USER_MODEL = "accounts.User"
 
 # Database
 # https://docs.djangoproject.com/en/5.1/ref/settings/#databases
